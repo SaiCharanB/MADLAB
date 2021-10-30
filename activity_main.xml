@@ -1,0 +1,179 @@
+SSN COLLEGE OF ENGINEERING 
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+ UCS1711 - Mobile Application Development Lab
+
+EX 2 – Keyboard Design
+
+
+Name
+Mahesh Bharadwaj K
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/editText"
+       android:layout_width="257dp"
+       android:layout_height="39dp"
+       android:layout_marginStart="77dp"
+       android:layout_marginTop="220dp"
+       android:ems="10"
+       android:hint="Enter number"
+       android:inputType="textPersonName"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="16dp"
+       android:layout_marginTop="475dp"
+       android:backgroundTint="#311B92"
+       android:clickable="true"
+       android:onClick="onButtonClick"
+       android:text="1"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="160dp"
+       android:layout_marginTop="472dp"
+       android:backgroundTint="#311B92"
+       android:onClick="onButtonClick"
+       android:text="2"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="304dp"
+       android:layout_marginTop="472dp"
+       android:backgroundTint="#311B92"
+       android:onClick="onButtonClick"
+       android:text="3"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="15dp"
+       android:layout_marginTop="535dp"
+       android:backgroundTint="#311B92"
+       android:onClick="onButtonClick"
+       android:text="4"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button5"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="160dp"
+       android:layout_marginTop="532dp"
+       android:backgroundTint="#311B92"
+       android:onClick="onButtonClick"
+       android:text="5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button6"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="304dp"
+       android:layout_marginTop="532dp"
+       android:backgroundTint="#311B92"
+       android:onClick="onButtonClick"
+       android:text="6"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button7"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="15dp"
+       android:layout_marginTop="595dp"
+       android:backgroundTint="#311B92"
+       android:onClick="onButtonClick"
+       android:text="7"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button8"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="160dp"
+       android:layout_marginTop="596dp"
+       android:backgroundTint="#311B92"
+       android:onClick="onButtonClick"
+       android:text="8"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button9"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="304dp"
+       android:layout_marginTop="592dp"
+       android:backgroundTint="#311B92"
+       android:onClick="onButtonClick"
+       android:text="9"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button10"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="160dp"
+       android:layout_marginTop="656dp"
+       android:backgroundTint="#311B92"
+       android:onClick="onButtonClick"
+       android:text="0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button11"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="12dp"
+       android:layout_marginTop="656dp"
+       android:backgroundTint="#B71C1C"
+       android:onClick="onDelButtonClick"
+       android:text="DEL"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button12"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="304dp"
+       android:layout_marginTop="656dp"
+       android:backgroundTint="#33691E"
+       android:onClick="onSubButtonClick"
+       android:text="ENT"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
